@@ -7,6 +7,7 @@ float resta(float valor1, float valor2);
 float division(float valor1, float valor2);
 float potencia(float valor1, float valor2);
 float valor();
+
 int main ()
 {
   int op;
@@ -29,17 +30,17 @@ int main ()
     break;
   case 5: printf("%.2f:",potencia(valor(),valor()));
   }
-
-  
-  
   return 0;
 }
+
 float suma(float valor1, float valor2){
     
 }
+
 float resta(float valor1, float valor2){
     
 }
+
 float potencia(float valor1, float valor2){
      return pow(valor1,valor2);
 }
@@ -47,6 +48,7 @@ float potencia(float valor1, float valor2){
 float multiplicacion(float valor1, float valor2){
   return valor1*valor2;
 }
+
 float division(float valor1, float valor2){
   if(valor2!=0){
   return valor1/valor2;}else{
@@ -55,6 +57,7 @@ float division(float valor1, float valor2){
     division(valor1,valor2);
   }
 }
+
 float valor(){
   float valor;
   printf("Inserte un numero\n");
